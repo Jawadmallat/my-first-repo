@@ -25,3 +25,10 @@ install.sh is not present because we are in the main branch, and the file is in 
 
 What command merges feature-script into main?: git merge feature-script (we have to go back to the main branch) 
 
+After merging we see that the ls feature shows files from both branches 
+
+What command deletes the feature-script branch after merging?: git branch -d feature-script
+
+What command links your local repo to GitHub? git remote add origin https://github.com/Jawadmallat/my-first-repo.git
+What command pushes your commits to GitHub? git push -u origin main
+Refresh your GitHub page. What do you see?: commits in the history, all files, branch structure, commit messages.
