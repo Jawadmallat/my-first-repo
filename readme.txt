@@ -21,4 +21,7 @@ What single command creates and switches to a new branch called dev? git checkou
 Switch back to the feature-script branch : git checkout feature-script
 Verify you are on the correct branch: git branch 
 
+install.sh is not present because we are in the main branch, and the file is in the feature-script branch
+
+What command merges feature-script into main?: git merge feature-script (we have to go back to the main branch) 
 
